@@ -45,7 +45,7 @@ Then we want to run the server.
 </body>
 </html>
 ```
-### govthospital Code:
+### Govthospital Code:
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -194,8 +194,18 @@ in this theatre.
 </html>
 ```
 ## Output:
-# Native Map
-
+### Native Map
+![OUTPUT](./nativemap.png)
+### Govthospital
+![OUTPUT](./govthospital.png)
+### Policestation
+![OUTPUT](./Policestation.png)
+### Postoffice
+![OUTPUT](./postoffice.png)
+### School
+![OUTPUT](./school.png)
+### Theatre
+![OUTPUT](./theatre.png)
 
 ## Result:
 The output for the places around me got successfull.
