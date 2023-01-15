@@ -24,16 +24,21 @@ Then we want to run the server.
 <html lang="en">
 <head>
 <title>My Town</title>
+<style>
+    h1{
+        color:green;
+        text-align: center;
+}
+    h2{
+        color:blue;
+        text-align: center;
+    }
+</style>
 </head>
 <body>
-<h1 align="center">
-<font color="green"><b>THENI - GOD'S OWN TOWN</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>YUVARAJ.S (22008589)</b></font>
-</h3>
-<center>
-<img src="/static/images/Map.png" usemap="#Map" height="844" width="1724" alt="Map" usemap="#Map">
+<h1><b>THENI - GOD'S OWN TOWN</b></h1>
+<h2><b>YUVARAJ.S (22008589)</b></h2>
+<img src="/static/images/Map.png" height="844" width="1724" alt="Map" usemap="#Map">
 <map name="Map">
     <area alt="Government Hospital" title="Government Hospital" href="/govthospital" coords="713,247,898,338" shape="rect">
     <area alt="Threatre" title="Threatre" href="/theatre" coords="369,657,580,740" shape="rect">
@@ -41,9 +46,9 @@ Then we want to run the server.
     <area alt="Police Station" title="Police Station" href="/policestation/" coords="373,325,537,371" shape="rect">
     <area alt="Gayathri.Hr.Sec.School" title="Gayathri.Hr.Sec.School" href="/school" coords="1047,775,1279,833" shape="rect">
 </map>
-</center>
 </body>
 </html>
+
 ```
 ### Govthospital Code:
 ```
@@ -196,6 +201,8 @@ in this theatre.
 ## Output:
 ### Native Map
 ![OUTPUT](./nativemap.png)
+### Native map Validator
+![OUTPUT](./valitator.png)
 ### Govthospital
 ![OUTPUT](./govthospital.png)
 ### Policestation
